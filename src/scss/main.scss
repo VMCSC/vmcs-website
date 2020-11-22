@@ -63,7 +63,6 @@ a {
 .vmcs-logo-wrapper {
   position: relative;
   height: 45vh;
-  cursor: pointer;
 }
 
 .vmcs-logo-main {
@@ -72,6 +71,7 @@ a {
   position: absolute;
   transform: translateX(-50%);
   transition: transform 350ms ease-in;
+  cursor: pointer;
   &:hover {
     transform: translateX(-50%) scale(1.05);
   }
