@@ -2,8 +2,8 @@
   <div id="app">
     <div :class="'site-wrapper' + getPageStateClass()">
       <div class="splash-wrapper">
-        <div class="vmcs-logo-wrapper" @click="toggleColorMode">
-          <img class="img-fluid vmcs-logo-main" alt="Vincent Massey Computer Science Club logo" src="./assets/vmcs-logo-vector.svg">
+        <div class="vmcs-logo-wrapper">
+          <img class="img-fluid vmcs-logo-main" alt="Vincent Massey Computer Science Club logo" src="./assets/vmcs-logo-vector.svg" @click="toggleColorMode">
         </div>
 
         <h3>Vincent Massey Computer Science Club</h3>
