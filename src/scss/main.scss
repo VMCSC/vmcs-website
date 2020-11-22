@@ -1,0 +1,88 @@
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+html {
+  font-size: calc(0.85em + 1vw);
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: 0;
+}
+
+p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  color: #212529;
+  transition: color 250ms ease-in;
+  &:hover {
+    text-decoration: none;
+    color: #6d7079;
+  }
+}
+
+#app {
+
+}
+.site-wrapper {
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+}
+.splash-wrapper {
+  padding: 5vh 0;
+  margin: 0 2em;
+  position: relative;
+}
+
+.vmcs-logo-wrapper {
+  position: relative;
+  height: 45vh;
+  cursor: pointer;
+}
+
+.vmcs-logo-main {
+  height: 40vh;
+  margin-bottom: 2em;
+  position: absolute;
+  transform: translateX(-50%);
+  transition: transform 350ms ease-in;
+  &:hover {
+    transform: translateX(-50%) scale(1.05);
+  }
+}
+
+.social-link-collection {
+  font-size: 0.8em;
+}
+
+.footer .social-link-collection {
+  font-size: 0.6em;
+  margin-top: 0;
+}
+
+.social-link {
+  margin: 0 1em;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
