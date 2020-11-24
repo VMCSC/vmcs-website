@@ -10,7 +10,7 @@
         <p>A group of students from Vincent Massey Secondary School who are passionate about computer science.</p>
         <p class="text-center social-link-collection">
           <a :class="'social-link' + getPageStateClass()" href="https://party.vmcs.club"><font-awesome-icon icon="gavel"></font-awesome-icon> DOMJudge</a>
-          <a :class="'social-link' + getPageStateClass()" href="#"><font-awesome-icon icon="cubes"></font-awesome-icon> 7 Week Challenge</a>
+          <a :class="'social-link' + getPageStateClass()" href="https://7wc.vmcs.club"><font-awesome-icon icon="cubes"></font-awesome-icon> 7 Week Challenge</a>
         </p>
       </div>
     </div>
