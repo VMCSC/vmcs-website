@@ -9,7 +9,7 @@
         <h3>Vincent Massey Computer Science Club</h3>
         <p>A group of students from Vincent Massey Secondary School dedicated to creating opportunities for students to learn more about computer science and technology.</p>
         <p class="text-center social-link-collection">
-          <!--a :class="'social-link' + getPageStateClass()" href="https://party.vmcs.club"><font-awesome-icon icon="gavel"></font-awesome-icon> DOMJudge</a-->
+          <a :class="'social-link' + getPageStateClass()" href="https://party.vmcs.club"><font-awesome-icon icon="gavel"></font-awesome-icon> DOMJudge</a>
         </p>
       </div>
     </div>
@@ -18,6 +18,7 @@
       <p class="text-center social-link-collection">
         <a :class="'social-link' + getPageStateClass()" href="https://watch.vmcs.club"><font-awesome-icon :icon="['fab', 'youtube']"></font-awesome-icon></a>
         <a :class="'social-link' + getPageStateClass()" href="https://github.com/VMCSC"><font-awesome-icon :icon="['fab', 'github']"></font-awesome-icon></a>
+        <a :class="'social-link' + getPageStateClass()" href="https://instagram.com/vmcsclub"><font-awesome-icon :icon="['fab', 'instagram']"></font-awesome-icon></a>
         <a :class="'social-link' + getPageStateClass()" href="mailto:hello@vmcs.club"><font-awesome-icon icon="envelope"></font-awesome-icon></a>
       </p>
     </div>
