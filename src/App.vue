@@ -9,6 +9,7 @@
         <h3>Vincent Massey Computer Science Club</h3>
         <p>A group of students from Vincent Massey Secondary School dedicated to creating opportunities for students to learn more about computer science and technology.</p>
         <p class="text-center social-link-collection">
+          <a :class="'social-link' + getPageStateClass()" href="https://join.vmcs.club"><font-awesome-icon :icon="['fab', 'discord']"></font-awesome-icon> Discord Server</a>
           <a :class="'social-link' + getPageStateClass()" href="https://party.vmcs.club"><font-awesome-icon icon="gavel"></font-awesome-icon> DOMJudge</a>
         </p>
       </div>

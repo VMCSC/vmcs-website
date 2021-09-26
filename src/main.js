@@ -4,7 +4,7 @@ import '@/scss/main.scss'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope, faGavel, faCubes } from '@fortawesome/free-solid-svg-icons'
-import { faYoutube, faGithub, faMedium, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faYoutube, faGithub, faMedium, faInstagram, faDiscord } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 library.add(faEnvelope)
@@ -14,6 +14,7 @@ library.add(faYoutube)
 library.add(faGithub)
 library.add(faMedium)
 library.add(faInstagram)
+library.add(faDiscord)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
