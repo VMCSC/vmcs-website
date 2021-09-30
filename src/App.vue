@@ -10,7 +10,7 @@
         <p>A group of students from Vincent Massey Secondary School dedicated to creating opportunities for students to learn more about computer science and technology.</p>
         <p class="text-center social-link-collection">
           <a :class="'social-link' + getPageStateClass()" href="https://join.vmcs.club"><font-awesome-icon :icon="['fab', 'discord']"></font-awesome-icon> Discord Server</a>
-          <a :class="'social-link' + getPageStateClass()" href="https://party.vmcs.club"><font-awesome-icon icon="gavel"></font-awesome-icon> DOMJudge</a>
+          <a :class="'social-link' + getPageStateClass()" href="https://judge.vmcs.club"><font-awesome-icon icon="gavel"></font-awesome-icon> DOMJudge</a>
         </p>
       </div>
     </div>
@@ -18,7 +18,7 @@
     <div class="footer">
       <p class="text-center social-link-collection">
         <a :class="'social-link' + getPageStateClass()" href="https://watch.vmcs.club"><font-awesome-icon :icon="['fab', 'youtube']"></font-awesome-icon></a>
-        <a :class="'social-link' + getPageStateClass()" href="https://github.com/VMCSC"><font-awesome-icon :icon="['fab', 'github']"></font-awesome-icon></a>
+        <a :class="'social-link' + getPageStateClass()" href="https://code.vmcs.club"><font-awesome-icon :icon="['fab', 'github']"></font-awesome-icon></a>
         <a :class="'social-link' + getPageStateClass()" href="https://instagram.com/vmcsclub"><font-awesome-icon :icon="['fab', 'instagram']"></font-awesome-icon></a>
         <a :class="'social-link' + getPageStateClass()" href="mailto:hello@vmcs.club"><font-awesome-icon icon="envelope"></font-awesome-icon></a>
       </p>
